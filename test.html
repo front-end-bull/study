@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="jQuery.js" defer></script>
+
+    <script src="google/traceur.js" defer></script>
+    <script src="google/BrowserSystem.js" defer></script>
+    <script src="google/bootstrap.js" defer></script>
+    
+    <!-- <script src="browser.min.js" defer></script> -->
+
+    <!-- <script type="module" src="http://bmw.playhudong.com/utils.js"></script> -->
+</head>
+<body>
+   <!--  <script>
+        class Calc {
+            constructor() {                 
+              console.log('Calc constructor');
+            }
+            add(a, b) {
+              return a + b;
+            }
+        }
+
+        var c = new Calc();
+        console.log(c.add(4,5));
+    </script>
+ -->
+
+
+
+ <!--    <script type="module">
+        var log = (name,value)=>{
+            console.log('*'.repeat(30))
+            value==null||value=='undefined' ? console.log(name) : console.log(' -'+name+": ",value)
+            console.log('*'.repeat(30))
+        }
+
+        export {log}
+    </script>
+ -->
+    
+
+    <script type="module">
+        import utils from 'utils.js'
+        utils.log('success')
+        let name = 'qinyimo'
+    </script>
+
+</body>
+</html>
