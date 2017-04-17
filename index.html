@@ -4,47 +4,14 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <script src="js/jQuery.js" defer></script>
-
     <script src="js/traceur.js" defer></script>
     <script src="js/BrowserSystem.js" defer></script>
     <script src="js/bootstrap.js" defer></script>
-    
-    <!-- <script src="browser.min.js" defer></script> -->
-
-    <!-- <script type="module" src="http://bmw.playhudong.com/utils.js"></script> -->
+    <!-- <script type="module" src="js/utils.js"></script> -->
 </head>
 <body>
-   <!--  <script>
-        class Calc {
-            constructor() {                 
-              console.log('Calc constructor');
-            }
-            add(a, b) {
-              return a + b;
-            }
-        }
-
-        var c = new Calc();
-        console.log(c.add(4,5));
-    </script>
- -->
-
-
-
- <!--    <script type="module">
-        var log = (name,value)=>{
-            console.log('*'.repeat(30))
-            value==null||value=='undefined' ? console.log(name) : console.log(' -'+name+": ",value)
-            console.log('*'.repeat(30))
-        }
-
-        export {log}
-    </script>
- -->
-    
-
     <script type="module">
-        import utils from 'js/utils.js'
+        import * as utils from 'js/utils.js'
         utils.log('success')
         let name = 'qinyimo'
     </script>
